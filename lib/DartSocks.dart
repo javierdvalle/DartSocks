@@ -69,7 +69,7 @@ class DartSocks {
   bool start(port, {Function onDone, Function onError}) {
 
     if (onDone == null) {
-      onError = () => {printInfo('server started on port $port')};
+      onDone = () => {printInfo('server started on port $port')};
     }
 
     if (onError == null) {
