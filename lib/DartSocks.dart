@@ -62,7 +62,7 @@ List<int> buildGrantedResponse() {
 }
 
 
-class DartSocks4 {
+class DartSocks {
 
   ServerSocket mainSocket = null;  
   
@@ -166,7 +166,7 @@ class DartSocks4 {
 
 void main() async {
 
-  var server = new DartSocks4();
+  var server = new DartSocks();
 
   server.start(9090, onDone: () => {print('abriendo el garito!')});
 
