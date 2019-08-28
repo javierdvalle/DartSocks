@@ -1,0 +1,7 @@
+name: DartSocks
+description: A small SOCKS proxy in Dart
+version: 1.11.0
+author: Javier del Valle <javierdelvalle@protonmail.com>
+
+dependencies:
+  http: ^0.12.0+2
